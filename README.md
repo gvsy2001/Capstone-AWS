@@ -3,21 +3,32 @@
 **Summary Of the Task are :-**
 
 **Step 0 :  Inspect the architecture.
-Step 1 : Creating the cloud9 IDE. 
+
+Step 1 : Creating the cloud9 IDE.
+
 Step 2 :  Get the project asset.
+
 Step 3 :  Installing lamp web server on cloud9 IDE.
-Step 4 :  Create MySQL  RDS database. 
+
+Step 4 :  Create MySQL  RDS database.
+
 Step 5 :  Creating an application load balancer.
+
 Step 6 :  Importing data into the RDS database.
+
 Step 7 : Configuring system parameter in the parameter store.**
+
 
 **Step 1: Create a Cloud9 IDE**
 
 **Step 2: Get the Project Assets**
+
 1. Clone the repository:
+
 git clone https://github.com/baselm/capstoneproject.git
 
 2. Extract the files to the Apache www folder:
+
 unzip Example.zip -d /var/www/html/
    
 **Step 3: Install a LAMP web server on Amazon Linux 2**
@@ -26,15 +37,19 @@ unzip Example.zip -d /var/www/html/
 
 
 sudo yum -y update
+
 sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
 
 sudo yum install -y httpd mariadb-server
+
 sudo systemctl start httpd
 
 sudo systemctl enable httpd
+
 sudo systemctl is-enabled httpd
 
 Open port 80 from the security group of the Cloud9 EC2 instance
+
 Get the cloud9 EC2 public instance IP address and test that you can access the website
 
 **Step 4: Create a MySQL RDS database instance**
@@ -54,11 +69,15 @@ Get the cloud9 EC2 public instance IP address and test that you can access the w
  Enhancedmonitoring: Disabled
  
  **Step 5: Create an Application Load Balancer**
+ 
  Create target group
+ 
  Create an auto scaling group
+ 
  Lunch Web Instances in the private subnet
  
  **Step 6: Importing the data into the RDS database**
+ 
  Importing the data into the RDS database instance from CLoud9 or by accessing the web instance via bastion host
 
   1.get the SQLDump file:
