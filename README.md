@@ -92,15 +92,16 @@ with the following specifications.
 ```sh
 mysql -u admin -p --host <rds-endpoint>
  ```
+ 
  3. Test that you can access the RDS DB 
  ```sh
  use exampledb;	
  show tables; 
 
  ```
- 
  4. Import the data into the RDS database.
  ```sh
+ 
  mysql -u admin -p exampledb --host <rds-endpoint>  < Countrydatadump.sql       
  ```
 # Test the ALB 
