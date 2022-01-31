@@ -60,7 +60,9 @@ sudo systemctl is-enabled httpd
 - Get the cloud9 EC2 public instance IP address and test that you can access the website 
 
 # Step 4: Create a MySQL RDS database instance 
+
 with the following specifications.
+
  -  Create a db subnet group 
  -  Databasetype: MySQL
  -  Template: Dev/Test
@@ -79,6 +81,7 @@ with the following specifications.
 - Create target group 
 - Create an auto scaling group 
 - Lunch Web Instances in the private subnet
+
 # Step 6: Importing the data into the RDS database
 
  Importing the data into the RDS database instance from CLoud9 or by accessing the web instance via bastion host
