@@ -80,10 +80,11 @@ with the following specifications.
 - Create an auto scaling group 
 - Lunch Web Instances in the private subnet
 # Step 6: Importing the data into the RDS database
+
  Importing the data into the RDS database instance from CLoud9 or by accessing the web instance via bastion host
+ 
  1. get the SQLDump file:
  
-
  2. connect to the RDS database, run this command:
 ```sh
 mysql -u admin -p --host <rds-endpoint>
@@ -95,7 +96,6 @@ mysql -u admin -p --host <rds-endpoint>
 
  ```
  
-  
  4. Import the data into the RDS database.
  ```sh
  mysql -u admin -p exampledb --host <rds-endpoint>  < Countrydatadump.sql       
