@@ -48,9 +48,9 @@ sudo systemctl enable httpd
 
 sudo systemctl is-enabled httpd
 
-Open port 80 from the security group of the Cloud9 EC2 instance
+ * Open port 80 from the security group of the Cloud9 EC2 instance
 
-Get the cloud9 EC2 public instance IP address and test that you can access the website
+ * Get the cloud9 EC2 public instance IP address and test that you can access the website
 
 **Step 4: Create a MySQL RDS database instance**
 
