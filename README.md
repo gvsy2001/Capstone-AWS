@@ -91,7 +91,7 @@ mysql -u admin -p --host <rds-endpoint>
  3. Test that you can access the RDS DB 
  ```sh
  use exampledb;	
-show tables; 
+ show tables; 
 
  ```
  
@@ -105,8 +105,8 @@ show tables;
 - Test data was imported 
 ```sh
  use exampledb;	
-show tables; 
-select *from countrydata_final; 
+ show tables; 
+ select *from countrydata_final; 
  ```
 
 # Step 7: Configure the system parameters in Parameter Store Systems Manager
