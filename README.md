@@ -12,6 +12,8 @@
 - Step 5: Create an Application Load Balancer 
 - Step 6: Importing the data into the RDS database 
 - Step 7: Configure the system parameters in Parameter Store Systems Manager 
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Step 0:  Inspect the archtecture 
@@ -99,6 +101,7 @@ show tables;
 mysql -u admin -p exampledb --host <rds-endpoint>  < Countrydatadump.sql       
 ```
 # Test the ALB 
+
 - Test data was imported 
 ```sh
  use exampledb;	
