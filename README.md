@@ -84,17 +84,18 @@ sudo systemctl is-enabled httpd
  
  **Step 5: Create an Application Load Balancer**
  
- Create target group
+ * Create target group
  
- Create an auto scaling group
+ * Create an auto scaling group
  
- Lunch Web Instances in the private subnet
+ * Lunch Web Instances in the private subnet
  
  **Step 6: Importing the data into the RDS database**
  
  Importing the data into the RDS database instance from CLoud9 or by accessing the web instance via bastion host
 
   1.get the SQLDump file:
+  
   2.connect to the RDS database, run this command:
 
    mysql -u admin -p --host <rds-endpoint>
@@ -109,13 +110,18 @@ sudo systemctl is-enabled httpd
   mysql -u admin -p exampledb --host <rds-endpoint>  < Countrydatadump.sql      
                                                                           
   **Test the ALB**
+                                                                          
   Test data was imported
   
-  use exampledb;	
+  use exampledb;
+                                                                          
   show tables; 
+                                                                          
   select * from countrydata_final; 
                                                                           
+                                                                          
 **Step 7: Configure the system parameters in Parameter Store Systems Manager**
+                                                                          
    
  Add the following parameters to the Parameter Store and set the correct values:
 
