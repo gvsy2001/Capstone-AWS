@@ -78,7 +78,7 @@ with the following specifications.
 - Create an auto scaling group 
 - Lunch Web Instances in the private subnet
 # Step 6: Importing the data into the RDS database
- _Importing the data into the RDS database instance from CLoud9 or by accessing the web instance via bastion host
+ Importing the data into the RDS database instance from CLoud9 or by accessing the web instance via bastion host
  1. get the SQLDump file:
  
 
