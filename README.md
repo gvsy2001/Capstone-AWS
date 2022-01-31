@@ -59,19 +59,19 @@ sudo systemctl is-enabled httpd
 
 # Step 4: Create a MySQL RDS database instance 
 with the following specifications.
- - * Create a db subnet group 
- - * Databasetype: MySQL
- - * Template: Dev/Test
- - * DBinstanceidentifier: Example
- - * DB instance size: db.t3.micro
- - * Storage type: General Purpose (SSD)
- - * Allocatedstorage: 20GiB
- - * Storageautoscaling: Enabled
- - * Standbyinstance: Enabled
- - *  Virtualprivatecloud: ExampleVPC
- - *  Databaseauthenticationmethod: Passwordauthentication 
- - *  Initialdatabasename: exampledb
- - *  Enhancedmonitoring: Disabled
+ -  Create a db subnet group 
+ -  Databasetype: MySQL
+ -  Template: Dev/Test
+ -  DBinstanceidentifier: Example
+ -  DB instance size: db.t3.micro
+ -  Storage type: General Purpose (SSD)
+ -  Allocatedstorage: 20GiB
+ -  Storageautoscaling: Enabled
+ -  Standbyinstance: Enabled
+ -  Virtualprivatecloud: ExampleVPC
+ -  Databaseauthenticationmethod: Passwordauthentication 
+ -  Initialdatabasename: exampledb
+ -  Enhancedmonitoring: Disabled
 
 # Step 5: Create an Application Load Balancer
 - Create target group 
