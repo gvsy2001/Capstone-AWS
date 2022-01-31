@@ -3,21 +3,22 @@
 **Summary Of the Task are :-**
 
 **Step 0 :  Inspect the architecture.
-Step 1 : Creating the cloud9 IDE.
-Step 2 :  Get the project asset.
-Step 3 :  Installing lamp web server on cloud9 IDE.
-Step 4 :  Create MySQL  RDS database.
-Step 5 :  Creating an application load balancer.
-Step 6 :  Importing data into the RDS database.
-Step 7 : Configuring system parameter in the parameter store.**
+  Step 1 : Creating the cloud9 IDE.
+  Step 2 :  Get the project asset.
+  Step 3 :  Installing lamp web server on cloud9 IDE.
+  Step 4 :  Create MySQL  RDS database.
+  Step 5 :  Creating an application load balancer.
+  Step 6 :  Importing data into the RDS database.
+  Step 7 : Configuring system parameter in the parameter store.**
 
 **Step 1: Create a Cloud9 IDE**
 
 **Step 2: Get the Project Assets**
 1. Clone the repository:
 git clone https://github.com/baselm/capstoneproject.git
+
 2. Extract the files to the Apache www folder:
-   unzip Example.zip -d /var/www/html/
+unzip Example.zip -d /var/www/html/
    
 **Step 3: Install a LAMP web server on Amazon Linux 2**
 
