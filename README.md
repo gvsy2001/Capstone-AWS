@@ -1,6 +1,6 @@
 # Capstone-AWS
 
-**Summary Of the Task are :-
+**Summary Of the Task are :-**
 
 **Step 0 :  Inspect the architecture.**
 
@@ -16,7 +16,7 @@
 
 **Step 6 :  Importing data into the RDS database.**
 
-**Step 7 : Configuring system parameter in the parameter store.****
+**Step 7 : Configuring system parameter in the parameter store.**
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
