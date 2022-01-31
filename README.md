@@ -25,11 +25,11 @@ Step 7 : Configuring system parameter in the parameter store.**
 
 1. Clone the repository:
 
-git clone https://github.com/baselm/capstoneproject.git
+   git clone https://github.com/baselm/capstoneproject.git
 
 2. Extract the files to the Apache www folder:
 
-unzip Example.zip -d /var/www/html/
+   unzip Example.zip -d /var/www/html/
    
 **Step 3: Install a LAMP web server on Amazon Linux 2**
 
