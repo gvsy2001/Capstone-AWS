@@ -96,17 +96,17 @@ show tables;
  ```
  
   
-4. Import the data into the RDS database.
-```sh
-mysql -u admin -p exampledb --host <rds-endpoint>  < Countrydatadump.sql       
-```
+ 4. Import the data into the RDS database.
+ ```sh
+ mysql -u admin -p exampledb --host <rds-endpoint>  < Countrydatadump.sql       
+ ```
 # Test the ALB 
 
 - Test data was imported 
 ```sh
  use exampledb;	
 show tables; 
-select * from countrydata_final; 
+select *from countrydata_final; 
  ```
 
 # Step 7: Configure the system parameters in Parameter Store Systems Manager
