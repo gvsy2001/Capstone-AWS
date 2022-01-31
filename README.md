@@ -1,8 +1,8 @@
 # Capstone-AWS
 
-**Summary Of the Task are :-**
+**Summary Of the Task are :-
 
-**Step 0 :  Inspect the architecture.
+Step 0 :  Inspect the architecture.
 
 Step 1 : Creating the cloud9 IDE.
 
@@ -55,17 +55,29 @@ Get the cloud9 EC2 public instance IP address and test that you can access the w
 **Step 4: Create a MySQL RDS database instance**
 
  Create a db subnet group
+ 
  Databasetype: MySQL
+ 
  Template: Dev/Test
+ 
  DBinstanceidentifier: Example
+ 
  DB instance size: db.t3.micro
+ 
  Storage type: General Purpose (SSD)
+ 
  Allocatedstorage: 20GiB
+ 
  Storageautoscaling: Enabled
+ 
  Standbyinstance: Enabled
+ 
  Virtualprivatecloud: ExampleVPC
+ 
  Databaseauthenticationmethod: Passwordauthentication
+ 
  Initialdatabasename: exampledb
+ 
  Enhancedmonitoring: Disabled
  
  **Step 5: Create an Application Load Balancer**
